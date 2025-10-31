@@ -1,5 +1,5 @@
-.body {
-    background-color: #9BAE95;
+body {
+    background-color: rgb(155, 174, 149);
 }
 
 h1 {
@@ -66,5 +66,101 @@ a {
 }
 
 img {
-    width: auto;
+    width: 500px;
 }
+/* Работа 3 */
+.header {
+    text-align: right;
+}
+
+.container {
+background-color: #666666;
+}
+
+.block {
+background-color:rgb(255, 183, 116);
+height: 200px;
+width: 200px;
+margin: auto;
+}
+
+.imgРабота3 {
+    width: 200px;
+    display:block;
+    margin: auto;
+}
+
+.container-2 {
+    background-color: #666666;
+    /* height: 400px; */
+    display: flex;
+    align-items: center;
+}
+
+.block-2 {
+    background-color: #00A685;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+
+.container-3 {
+    background-color: #666666;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.block-3 {
+    background-color: #28A600;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+
+.container-4 {
+    background-color: #ffffff;
+    border: 5px solid #000000;
+}
+
+.block-4 {
+    border: 5px solid #ff0000;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+.block-5 {
+    border: 5px solid #003cff;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 20px;
+    left: 220px;
+}
+
+.block-6 {
+    border: 5px solid #0b8600;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: -70px;
+    left: 330px;
+}
+
+/* .blockstiky{
+    
+} */
+
+.imgcat {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
