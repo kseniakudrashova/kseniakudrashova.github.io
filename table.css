@@ -7,6 +7,10 @@ border: 1px solid black;
 border-collapse: collapse;
 }
 
+table {
+     margin-bottom: 20px;
+}
+
 td, th {
     padding: 5px;
 }
@@ -31,4 +35,13 @@ tr:hover {
 
 caption {
     padding: 15px;
+}
+
+fieldset {
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.button {
+    margin-top: 20px;
 }
